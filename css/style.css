@@ -40,7 +40,6 @@ h6 {
 
 .wrapper {
     min-height: 100%;
-    background-color: #F2CEDA;
 }
 
 .container {
@@ -48,14 +47,10 @@ h6 {
     margin: 0px auto;
 }
 
-/* .hero {
-    background: url(../img/content/ice-cream.png) no-repeat center/cover;
+.hero {
     height: 100vh;
-    width: 597px;
-    height: 597px;
-    left: 889px;
-    top: 126px;
-} */
+    background-color: #F2CEDA;
+}
 
 .header {
     display: flex;
@@ -87,6 +82,7 @@ h6 {
 
 .content {
     display: flex;
+    align-items: center;
 }
 
 .content__desc {
@@ -171,4 +167,162 @@ h6 {
     background-position-y: 110px;
     background-position-x: center;
     position: absolute;
+}
+
+.food {
+    padding: 115px 0px 102px;
+}
+
+.food__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food__item {
+    width: 250px;
+    justify-content: space-between;
+}
+
+.dish {
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.03);
+
+}
+
+.dish__img-wrap {
+    width: 54px;
+    height: 54px;
+}
+
+.dish__img {
+    margin: 33px 100px 123px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.dish__desc {
+    padding: 33px 26px 27px;
+    text-align: center;
+}
+
+.dish__tytle {
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 13px;
+}
+
+.dish__text {
+    line-height: 1.15;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Hind Madurai', sans-serif;
+
+}
+
+.order {
+    background: #F8EDF0;
+    padding: 73px 0px;
+    height: 50vh;
+
+}
+
+.order__container {
+    display: flex;
+    align-items: center;
+
+}
+
+.order__imd-wrap {
+    width: 465px;
+    height: 421px;
+
+}
+
+.order__colomn {
+    width: 1100px;
+    height: 657px;
+}
+
+.order__img {
+    margin-bottom: 50px;
+    margin-left: 130px;
+    width: 500px;
+    height: 440px;
+}
+
+.order__desc {}
+
+.call-to-action {}
+
+.order__call-to-action {
+    max-width: 100%;
+
+
+}
+
+.call-to-action__tytle {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.18;
+
+}
+
+.order__call-to-action-tytle {
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+
+.call-to-action__text {
+    margin-bottom: 13px;
+
+
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin-bottom: 11px;
+}
+
+.price-new--size--big {
+    font-size: 20px;
+}
+
+.price__new {
+    color: rgba(246, 118, 44, 1);
+}
+
+.price__old {
+    text-decoration: line-through;
+    color: rgba(246, 118, 44, 0.7);
+}
+
+.izgoy1 {
+    width: 51px;
+    height: 44px;
+}
+
+.izgoy {
+    width: 32px;
+    height: 43px;
+}
+
+.giv {
+    height: 320px;
+    width: 100%;
+    display: flex;
+}
+
+.container__text {
+    max-width: 442px;
 }
